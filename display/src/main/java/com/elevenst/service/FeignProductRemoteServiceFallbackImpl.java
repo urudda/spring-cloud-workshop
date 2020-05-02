@@ -8,4 +8,5 @@ public class FeignProductRemoteServiceFallbackImpl implements FeignProductRemote
     public String getProductInfo(String productId) {
         return "[ this product is sold out ]";
     }
+    
 }

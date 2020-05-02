@@ -24,4 +24,5 @@ public class ProductRemoteServiceImpl implements ProductRemoteService {
         System.out.println("t = " + t);
         return "[ this product is sold out ]";
     }
+    
 }

@@ -24,5 +24,4 @@ public class DisplayApplication {
     public static void main(String[] args) {
         SpringApplication.run(DisplayApplication.class);
     }
-
 }

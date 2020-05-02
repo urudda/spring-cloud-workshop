@@ -11,4 +11,5 @@ public class FeignProductRemoteServiceFallbackFactory implements FallbackFactory
         System.out.println("t = " + cause);
         return productId -> "[ this product is sold out ]";
     }
+    
 }

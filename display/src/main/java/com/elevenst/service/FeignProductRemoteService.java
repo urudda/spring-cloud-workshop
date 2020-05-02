@@ -8,4 +8,5 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface FeignProductRemoteService {
     @RequestMapping(path = "/products/{productId}")
     String getProductInfo(@PathVariable("productId") String productId);
+    
 }
